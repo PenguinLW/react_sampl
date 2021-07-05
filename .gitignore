@@ -2,3 +2,27 @@
 __pycache__/*
 venv/*
 nenv/*
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+react_sampl/node_modules
+react_sampl/.pnp
+react_sampl/.pnp.js
+
+# testing
+react_sampl/coverage
+
+# production
+react_sampl/build
+
+# misc
+react_sampl/.DS_Store
+react_sampl/.env.local
+react_sampl/.env.development.local
+react_sampl/.env.test.local
+react_sampl/.env.production.local
+
+react_sampl/npm-debug.log*
+react_sampl/yarn-debug.log*
+react_sampl/yarn-error.log*
