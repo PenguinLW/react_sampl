@@ -1,3 +1,5 @@
+#in venv
+. venv/bin/activate
 #from venv python this project
 python -m pip install --upgrade pip
 pip install nodeenv
