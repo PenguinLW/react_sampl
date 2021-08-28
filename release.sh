@@ -1,5 +1,8 @@
 #in venv
+<<<<<<< HEAD
 . venv/bin/activate
+=======
+>>>>>>> 866ee9f2aa2af470b9000222ee3cd201c3d1a68e
 #pip install -r req.txt
 pip freeze > req.txt
 #git clone -o react_sampl https://github.com/Kovalsky95/react_sampl.git
@@ -13,4 +16,7 @@ git pull --all
 git add .
 git commit -m PenguinL
 git push --set-upstream react_sampl master
+<<<<<<< HEAD
 deactivate
+=======
+>>>>>>> 866ee9f2aa2af470b9000222ee3cd201c3d1a68e
