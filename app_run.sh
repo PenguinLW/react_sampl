@@ -1,4 +1,4 @@
 . venv/bin/activate
 . nenv/bin/activate
 cd react_sampl
-npm start index.js
+npm start index.js=
