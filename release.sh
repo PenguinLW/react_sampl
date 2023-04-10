@@ -3,7 +3,7 @@
 #pip install -r req.txt
 pip freeze > req.txt
 chmod u+x *.sh *.py
-#git clone -o react_sampl https://github.com/Kovalsky95/react_sampl.git
+#git clone -o react_sampl https://github.com/PenguinLW/react_sampl.git
 #git config --global user.email "diana1997525@gmail.com"
 #git config --global user.name "Kovalsky95"
 #git config --global credential.helper cache
