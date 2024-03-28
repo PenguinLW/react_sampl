@@ -11,5 +11,6 @@ npx create-react-app react_sampl
 
 cd react_sampl
 npm start index.js
+
 #deactivate
 #deactivate_node
