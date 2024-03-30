@@ -1,4 +1,4 @@
 #in venv
-. venv/bin/activate &&. nenv/bin/activate
-cd react_sampl
+source ~/venv/bin/activate && source ~/nenv/bin/activate #. venv/bin/activate &&. nenv/bin/activate
+
 npm start index.js
