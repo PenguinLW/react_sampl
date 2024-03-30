@@ -11,11 +11,12 @@ const content = [
 export default function App() {
     const [active, setActive] = useState(null);
     return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-        <ul>
+        <div className="App">
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <div>
+            <ul>
             {content.map((item, index) => (
                 <li
                     key={item.title}
@@ -26,7 +27,8 @@ export default function App() {
                     <div className="content">{item.text}</div>
                 </li>
             ))}
-        </ul>
-    </div>
+            </ul>
+        </div>
+        </div>
   );
 }
