@@ -12,5 +12,7 @@ source ~/nenv/bin/activate #. nenv/bin/activate
 
 npm install npm npx node
 
+#npx create-react-app {project_name}
+
 #deactivate
 #deactivate_node
