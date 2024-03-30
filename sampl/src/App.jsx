@@ -1,16 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import Header from "./components/Header"
+
+function WayToTeach() {
+    return (
+        <li>
+            <p>
+                <strong>text 1</strong>
+                text 2
+            </p>
+        </li>
+    )
+}
 
 function App() {
   return (
     <div>
-      <header>
-        <h3>PenguinLW</h3>
-        <span>this time</span>
-      </header>
-
+      <Header/>
       <main>
+        <section>
           <h1>P !!</h1>
+
+          <WayToTeach/>
+
+        </section>
       </main>
 
     </div>
