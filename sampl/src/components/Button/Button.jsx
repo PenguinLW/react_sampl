@@ -1,6 +1,6 @@
-import './Button.css'
+import "./Button.css"
 
 
-export default function Button({children, text, onClick}) {
-    return <button className={"button active"} onClick={onClick}>{text +""+children}</button>
+export default function Button({children, text, onClick, isActive}) {
+    return <button className={isActive ? "button active" : "button"} onClick={onClick}>{text +"-"+children}</button>
 }

@@ -1,14 +1,21 @@
-import logo from '../../logo.svg';
+import logo from "../../logo.svg";
+import { useState } from "react"
 
 
 export default function Header() {
-  const now = new Date();
+    const [datetime, setDateTime] = useState(new Date());
 
-  return (
+    setInterval( () => {
+        setDateTime(new Date());
+        },
+        1000
+    );
+
+    return (
       <header className={"App-header"}>
           <img src={logo} alt={"PenguinLW"} className={"App-logo"}/>
           <h3>PenguinLW</h3>
-          <span>{now.toLocaleDateString() + "; " +now.toLocaleTimeString()}</span>
+          <span>{datetime.toLocaleDateString() + " " +datetime.toLocaleTimeString()}</span>
       </header>
-  )
+    )
 }
