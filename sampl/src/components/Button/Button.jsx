@@ -1,7 +1,6 @@
 import './Button.css'
 
 
-export default function Button({children, text, onTouch}) {
-
-    return <button className={"button active"} onClick={onTouch}>{text +""+children}</button>
+export default function Button({children, text, onClick}) {
+    return <button className={"button active"} onClick={onClick}>{text +""+children}</button>
 }
