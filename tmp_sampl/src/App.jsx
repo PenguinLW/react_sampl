@@ -15,7 +15,9 @@ export default function App() {
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <div>
+        <div className={"Main"}>
+            <p className={"content"}>
+            <section>
             <ul>
             {content.map((item, index) => (
                 <li
@@ -28,6 +30,8 @@ export default function App() {
                 </li>
             ))}
             </ul>
+            </section>
+            </p>
         </div>
         </div>
   );
