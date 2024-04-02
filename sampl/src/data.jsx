@@ -34,7 +34,11 @@ export const ways = [
 
 ];
 export const differences = {
-    way: "way",
-    easy: "easy",
-    programm: "programm"
+    way: "way 0",
+    easy: "easy 0",
+    programm: "programm 0"
+};
+export const intros = {
+    title: "intro title 1",
+    description: "intro description 1"
 };
